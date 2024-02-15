@@ -1,16 +1,21 @@
 body {
   background: peachpuff;
 }
-* {box-sizing: border-box}
+* {box-sizing: border-box;}
 .container{
   display:flex;
-  flex-direction:column;
+  flex-direction: column;
+
+}
+.bcdefg{
+  display:column;
+  flex-direction: column;
 }
 
 .a {
   border: 1px solid black;
   height: 5em;
-  width: 80em;
+  
 }
 .b {
   border: 1px solid black;
@@ -43,7 +48,7 @@ body {
 .h{
   border: 1px solid black;
   height: 5em;
-  width: 80em;
+  
 
 }
 .bcd{
@@ -55,7 +60,9 @@ body {
 @media screen and (min-width: 640px){
   .bcdefgh{
   display:flex;
+  
   }
+  
   .bcdefg{
   display:flex;
   flex-direction: column;
@@ -68,6 +75,7 @@ body {
   }
   .h{
   height: 20em;
+  display:flex;
   width: 20em;
   }
   .c{
@@ -87,6 +95,7 @@ body {
   }
   .a{
   height: 10em;
+    
   }
   .b{
   height: 10em;
